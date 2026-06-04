@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para Mi Flaca Hermosa ❤️</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Poppins,sans-serif;background:#0b1020;color:white;overflow-x:hidden}
+section{padding:100px 8%}
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:radial-gradient(circle at top,#ff4fa3,#0b1020 60%);
+position:relative;
+}
+.hero h1{font-size:5rem}
+.hero p{font-size:1.4rem;margin-top:15px}
+.btn{margin-top:30px;padding:16px 34px;background:white;color:#ff4fa3;text-decoration:none;border-radius:999px;font-weight:700}
+.glass{
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(12px);
+border:1px solid rgba(255,255,255,.15);
+border-radius:30px;
+padding:40px;
+max-width:950px;
+margin:auto;
+}
+h2{font-size:3rem;text-align:center;margin-bottom:40px}
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:20px;
+}
+.photo{
+overflow:hidden;
+border-radius:25px;
+background:#111827;
+transform:translateY(0);
+transition:.4s;
+}
+.photo:hover{transform:translateY(-8px) scale(1.02)}
+.photo img{width:100%;height:380px;object-fit:cover}
+.counter{font-size:4rem;text-align:center;font-weight:700}
+.counter small{display:block;font-size:1.2rem;margin-top:10px}
+video{width:100%;border-radius:25px}
+footer{padding:80px;text-align:center;font-size:1.2rem}
+.hearts span{
+position:absolute;
+bottom:-50px;
+font-size:24px;
+animation:float 12s linear infinite;
+opacity:.6;
+}
+@keyframes float{
+from{transform:translateY(0)}
+to{transform:translateY(-120vh)}
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+<div class="hearts">
+<span style="left:10%">❤️</span>
+<span style="left:25%;animation-delay:2s">💕</span>
+<span style="left:45%;animation-delay:4s">❤️</span>
+<span style="left:65%;animation-delay:1s">💖</span>
+<span style="left:85%;animation-delay:3s">💕</span>
+</div>
+<h1>Feliz Aniversario ❤️</h1>
+<p>Dos meses contigo y siento que apenas empieza la mejor parte de mi vida.</p>
+<a class="btn" href="#carta">Abrir Carta</a>
+</section>
+
+<section id="carta">
+<h2>Mi Carta Para Ti 💌</h2>
+<div class="glass">
+Mi amor linda todos mis dias se hacen mas suaves desde que yo te conocí, no existe mañana en la que yo me despierte y no te piense, gracias a ti me he vuelto una persona más gentil, más comprensiva y sobretodo he aprendido a amar sin esperar nada a cambio. Esto es solo el comienzo de todo lo lindo que vamos a vivir juntas. Te amo mi flaca hermosa.
+</div>
+</section>
+
+<section>
+<h2>Nuestros Recuerdos 📸</h2>
+<div class="gallery">
+<div class="photo"><img src="assets/WhatsApp Image 2026-06-03 at 11.46.21 PM(1).jpeg"></div>
+<div class="photo"><img src="assets/WhatsApp Image 2026-06-03 at 11.46.21 PM(2).jpeg"></div>
+<div class="photo"><img src="assets/WhatsApp Image 2026-06-03 at 11.46.21 PM(3).jpeg"></div>
+<div class="photo"><img src="assets/WhatsApp Image 2026-06-03 at 11.46.21 PM.jpeg"></div>
+<div class="photo"><img src="assets/WhatsApp Image 2026-06-03 at 11.46.22 PM.jpeg"></div>
+</div>
+</section>
+
+<section>
+<h2>Tiempo Juntas ⏳</h2>
+<div class="glass">
+<div class="counter">2 Meses ❤️<small>Cada día contigo ha valido la pena.</small></div>
+</div>
+</section>
+
+<section>
+<h2>Nuestro Video 🎥</h2>
+<div class="glass">
+<video controls>
+<source src="assets/video.mp4" type="video/mp4">
+</video>
+</div>
+</section>
+
+<footer>
+Gracias por existir, por acompañarme y por hacer que cada día tenga más sentido. ❤️
+</footer>
+
+</body>
+</html>
